@@ -1,7 +1,4 @@
-vim.g.loaded_netrwPlugin = 1
-vim.g.loaded_netrw = 1
-
-vim.g.netman_no_shim = true
+vim.g.netman_no_shim = false
 
 local utils  = require("netman.tools.utils")
 local api    = require('netman.api')
